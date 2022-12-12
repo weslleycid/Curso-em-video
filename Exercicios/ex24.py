@@ -1,0 +1,5 @@
+cidade = input('Digite o nome de uma cidade: ')
+cidade = cidade.upper()
+cidadeNome01 = cidade.split()
+teste = ('SANTO' in cidadeNome01[0])
+print('A cidade digitada possui Santo no inicio?: {} '.format(teste))
