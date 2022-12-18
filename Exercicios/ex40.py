@@ -3,9 +3,9 @@ print('RESULTADO FINAL')
 nota1 = float(input ('digite sua primeira nota: '))
 nota2 = float(input('Digite sua segunda nota: '))
 media = float(nota1+nota2)/2
-sexo = int(6)
-while sexo<1 or sexo>=3:
-    sexo = int(input('Escolha seu sexo -> \n''[1] masculino \n [2] Feminino\n'
+sexo = str('0')
+while sexo != '1' and sexo !='2':
+    sexo = str(input('Escolha seu sexo -> \n''[1] masculino \n [2] Feminino\n'
                  'Opção Sexual: '))
 
 if media <=5 and sexo == 1:
