@@ -2,7 +2,7 @@ n1 = int(input("Digite um numero: "))
 print('-'*12)
 n2=0
 s1 = n1*n2
-print ('{} x {:2} = {}'.format(n1, n2, s1))
+print('{} x {:2} = {}'.format(n1, n2, s1))
 n2 = 1
 s1 = n1*n2
 print('{} x {:2} = {}'.format(n1, n2, s1))
